@@ -7,10 +7,21 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+   <h1>I'm not a robot</h1>
+  <div id="image-container">
+    <img class="tile" src="https://images.unsplash.com/photo-1597551681492-10c86e481548?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80" alt="" onclick="selectTile(event)">
+    <img class="tile" src="https://images.unsplash.com/photo-1597551681492-10c86e481548?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80" alt="" onclick="selectTile(event)">
+    <img class="tile" src="https://images.unsplash.com/photo-1629394661462-13ea8fe156ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="" onclick="selectTile(event)">
+    <img class="tile" src="https://images.unsplash.com/photo-1607409610054-a1fe0563573f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="" onclick="selectTile(event)">
+    <img class="tile" src="https://images.unsplash.com/photo-1616731948638-b0d0befef759?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="" onclick="selectTile(event)">
+    <img class="tile" src="https://images.unsplash.com/photo-1573621942226-d8399bf786ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=327&q=80" alt="" onclick="selectTile(event)">
+  </div>
+  <button id="reset" onclick="resetState()" style="display: none;">Reset</button>
+  <button id="verify" onclick="verifyTiles()" style="display: none;">Verify</button>
+  <p id="para"></p>
+	 <h3 id="h">Please click on the identical tiles to verify that you are not a robot.</h3>
 
+  <script src="script.js"></script>
 </body>
 
 </html>
